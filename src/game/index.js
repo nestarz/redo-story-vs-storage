@@ -132,8 +132,9 @@ export default async () => {
 
       if (window.ResizeObserver)
         new window.ResizeObserver(group.resize).observe(element);
-      else window.addEventListener("resize", resize);
+      else window.addEventListener("resize", group.resize);
 
+      console.log("ok")
       group.events.forEach((type) =>
         listener.addEventListener(type, group.eventsCallbacks(type), true)
       );
