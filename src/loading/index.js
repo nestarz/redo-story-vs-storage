@@ -66,7 +66,8 @@ export default async () => {
       <p>This work is done using web technologies. Are used, Cannon as the physics engine and WebGL and THREE.js for the rendering system.
       The source code is <a href="https://github.com/nestarz/redo-story-vs-storage">publicly available</a> and hosted on Git.</p>
 
-      <p>Thought to be played online, this work use the screen as a virtual space.</p>
+      <p>Thought to be played online, this work use the screen as a virtual space. 
+      Each visit is a new journey with new images and a different path is taken.</p>
     `,
   });
 
