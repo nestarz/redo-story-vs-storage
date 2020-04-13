@@ -25,11 +25,10 @@ async function main() {
   loading.remove();
 }
 
-document.body.requestFullscreen =
-  document.body.requestFullscreen || document.body.webkitRequestFullScreen;
-
-document.body.addEventListener("click", () =>
-  document.body.requestFullscreen()
-);
+document.body.addEventListener("click", function fullScreen() {
+  document.body.requestFullscreen =
+    document.body.requestFullscreen || document.body.webkitRequestFullScreen;
+  document.body.requestFullscreen();
+});
 
 main();

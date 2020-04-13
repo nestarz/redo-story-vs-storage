@@ -114,6 +114,7 @@ export default async () => {
         const audio = Object.assign(document.createElement("audio"), {
           src: "assets/sounds/sigh-of-relief.mp3",
           autoplay: true,
+          loop: true,
           onerror: reject,
           oncanplaythrough: () => resolve(audio),
           preload: "auto",
