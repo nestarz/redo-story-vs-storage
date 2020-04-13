@@ -67,7 +67,7 @@ export default async () => {
       The source code is <a href="https://github.com/nestarz/redo-story-vs-storage">publicly available</a> and hosted on Git.</p>
 
       <p>Thought to be played online, this work use the screen as a virtual space. 
-      Each visit is a new journey with new images and a different path is taken.</p>
+      Each visit is a new journey with new images and a different path is taken. Refresh the page for a new journey...</p>
     `,
   });
 
