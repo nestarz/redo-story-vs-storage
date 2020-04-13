@@ -52,7 +52,7 @@ export default async () => {
       massive and moving at such a speed that soon, it is said, light itself
       will not escape its gravitational pull. Akin to
       <a href="http://www.paulbushfilms.com/babeldom.html">Babeldom</a>, this
-      experience portrait a city and the journey of a conflicted self rambling
+      experience portrait a city and the journey of a conflicted self, rambling
       around foreign memories. How can another human experience my first
       encounter with foreign memories ? How can we represent the reflective
       mind, thoughts, when one have to deal with foreign images of memories.
