@@ -15,8 +15,8 @@ async function main() {
   // const chat = Chat(`hsl(${Math.random() * 360}, 100%, 80%)`);
 
   if (!dev) {
-    await loading.start();
   }
+  await loading.start();
 
   // chat.attach(overlay);
   game.attach(main, document.body);

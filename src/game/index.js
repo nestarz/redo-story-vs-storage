@@ -41,6 +41,7 @@ export default async () => {
   const offset = new THREE.Vector3(0, 15, 0);
   let parent;
   const texts = [
+    "Put your headphones and...",
     "Use your mouse to watch around...",
     "While my mind is trying to remember...",
     "Here inside...",

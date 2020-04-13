@@ -27,7 +27,7 @@ main {
   display: flex;
 }
 
-aside {
+#note, aside {
   position: fixed;
   z-index: 99;
   top: 0;
@@ -36,4 +36,8 @@ aside {
   display: flex;
   justify-content: space-between;
   margin: 1rem;
+}
+
+#note {
+  max-width: 33rem;
 }
