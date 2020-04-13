@@ -112,7 +112,10 @@ export default async () => {
 
       const audio = await new Promise(function (resolve, reject) {
         const audio = Object.assign(document.createElement("audio"), {
-          src: "assets/sounds/sigh-of-relief.mp3",
+          src:
+            Math.random() > 0.6
+              ? "assets/sounds/sigh-of-relief.mp3"
+              : "assets/sounds/searching-the-past.mp3",
           autoplay: true,
           loop: true,
           onerror: reject,
