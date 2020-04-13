@@ -23,8 +23,10 @@ export default async () => {
   return {
     attach: (parent) => parent.appendChild(container),
     start: () => {
+      content.innerText = "Press Any Button"
       container.addEventListener("click", () => eventListener.emit());
-      setTimeout(eventListener.emit, 1000);
+      container.addEventListener("keydown", () => eventListener.emit());
+      setTimeout(eventListener.emit, 1500);
       return new Promise((resolve) => eventListener.on(resolve));
     },
     remove: () => container.remove(),
